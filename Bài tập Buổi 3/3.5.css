@@ -1,0 +1,85 @@
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title{
+  margin: 12px 12px 12px;
+  font-size: 32px;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.stars-score{
+  margin: 12px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.stars-score .stars{
+  color: #ffb400;
+  font-size: 24px;
+  margin-right: 8px;
+}
+
+
+.price-row{
+  display: flex;
+  align-items: baseline;
+  margin: 12px;
+}
+
+.price{
+  font-size: 50px;
+  font-weight: 300;
+}
+
+
+.currency{
+  font-size: 0.55em;
+  font-weight: 700;
+  margin-right: 2px;
+}
+
+
+.giam{
+  height: 28px;
+  padding: 0 10px;
+  border-radius: 10px;
+  background: #f3f4f6;
+  border: 1px solid #e5e7eb;
+  font-weight: 700;
+  font-size: 14px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.color-box {
+  margin-top: 20px;
+}
+
+.color-option {
+  display: inline-block;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+
+.color-option input {
+  display: none;
+}
+
+
+.color-option span {
+  display: inline-block;
+  padding: 10px 18px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.option-content img {
+  width: 40px;
+  height: auto;
+}

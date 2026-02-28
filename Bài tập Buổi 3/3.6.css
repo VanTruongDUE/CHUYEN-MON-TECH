@@ -1,0 +1,76 @@
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f5f6fa;
+  padding: 30px 16px;
+  color: #111;
+}
+
+
+
+.price{
+  font-size: 44px;
+  font-weight: 800;
+  color: #e11d48; /* đỏ */
+  line-height: 1.1;
+  margin: 0 0 12px;
+}
+
+.installment{
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 14px;
+}
+
+
+
+.badge{
+  background: #1d4ed8;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 10px;
+  font-weight: 700;
+}
+
+.install-text{
+  font-size: 18px;
+  color: #222;
+}
+
+.sub{
+  margin-top: 12px;
+  color: #9ca3af
+}
+
+
+.row{
+  font-size: 18px;
+  margin: 6px 0;
+  color: #9ca3af
+}
+
+
+.save{
+  color: #9ca3af;
+  font-weight: 800;
+}
+
+.market{
+  color: #9ca3af;
+}
+
+
+.features{
+  margin: 0;
+  padding-left: 28px;
+  font-size: 20px;
+  color: #111827;
+}
+.features li{
+  margin: 12px 0;
+}
+
+
+
