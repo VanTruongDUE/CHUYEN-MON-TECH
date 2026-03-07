@@ -1,0 +1,53 @@
+body{
+  font-family: serif;
+  padding:40px;
+}
+
+.menu{
+  display:flex;
+  background:#5ea7d3;
+}
+
+.menu a{
+  flex:1;
+  text-align:center;
+  padding:15px;
+  color:#4b2d7f;
+  text-decoration:none;
+  font-size:20px;
+}
+
+/* màn hình <768px */
+/* @media (max-width:768px){
+
+  .menu{
+    flex-direction:column;
+    align-items:center;
+  }
+
+  .menu a{
+    font-size:32px;
+    padding:20px;
+  }
+
+} */
+
+/* màn hình >=768px */
+/* @media (min-width:768px){
+
+  .menu{
+    justify-content:space-around;
+  }
+
+} */
+
+/* màn hình >=1024px */
+@media (min-width:1024px){
+    .menu{
+        justify-content: flex-end;
+    }
+
+    .menu a{
+        margin-left:40px;
+    }
+}
