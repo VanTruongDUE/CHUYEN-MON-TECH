@@ -1,0 +1,39 @@
+.chart{
+  display: flex;          
+  align-items: center;   
+  width: 800px;
+  font-size: 20px;
+}
+
+.title{
+  margin-right: 0;   
+  white-space: nowrap;
+}
+
+.bar{
+  display: flex;         
+  flex: 1;
+  height: 40px;
+}
+
+.b1, .b2, .b3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.b1{
+  flex: 35;
+  background: peru;
+}
+
+.b2{
+  flex: 50;
+  background: gold;
+}
+
+.b3{
+  flex: 15;
+  background: blueviolet;
+}
